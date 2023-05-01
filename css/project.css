@@ -1,0 +1,694 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.main-header {
+   display: flex;
+   
+}
+
+.main-navigation__items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.qubit {
+    margin-right: 40px;
+}
+
+.main-navigation__item a {
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.button {
+    margin-left: 40px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 14px;
+    color:  #FFFFFF;
+    background-color: #6F2CFF; 
+    border: none;
+    width: 157px;
+    cursor: pointer;
+    
+
+}
+
+/* main section */
+
+.main-baner {
+    background: url(../photos/Rectangle\ \(9\).png);
+    width: 1440px;
+    height: 695px;
+    margin: auto;
+    display: flex;
+}
+
+.main-section {
+    margin-left: 115px;
+}
+
+.main-info__introduction {
+   margin-top: 134px;
+   
+   color: black;
+}
+
+.main-info {
+    margin-top: 19px;
+    color: black;
+    
+}
+
+.main-info__second {
+    margin-top: 1px;
+    color: #6F2DFF;
+    font-family: roboto;
+}
+
+.paragraph {
+    line-height: 30px;
+    font-size: 18x;
+    color: black;
+    font-weight: 400;
+}
+
+.contact__email {
+    display: flex;
+}
+
+.contact__email >input {
+    width: 267px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 27.5px 0px 0px 27.5px;
+    border: 1px solid #6F2CFF;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.book {
+    width: 187px;
+    border: 1px solid #6F2CFF;
+    background: #6F2DFF;
+    border-radius: 0px 27.5px 27.5px 0px;
+    color: #FFFFFF;
+}
+
+/* partners */
+
+.trusted {
+    display: flex;
+    justify-content: center;
+    font-family: "roboto";
+    font-size: 18px;
+    margin-top: 35px;
+    font-weight: 700;
+    color: #1C1C1C;
+
+}
+
+.partner {
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-around;
+    margin-top: 29px;
+}
+
+.meet {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    height: 24px;
+    font-weight: 700;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-line {
+    position: relative;
+    width: 170px;
+    height: 2px;
+    background: #6F2CFF;
+    top: 2px;
+}
+
+/* customers */
+.customer {
+    display: flex;
+    margin-top: 100px;
+  
+}
+
+.qubit-grow {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    margin-left: 70px;
+}
+
+.grow {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 177px;
+   
+}
+
+.competitors {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.a-demo {
+    width: 187px;
+    height: 40px;
+    background: #6F2CFF;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid #6F2CFF;
+}
+
+.our-demo {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 58px;
+    
+}
+
+.our {
+    margin-left: 22px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.read {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-family: "roboto";
+}
+
+.report {
+    display: flex;
+    flex-direction: column;
+}
+
+.black-line  {
+    position: relative;
+    width: 111px;
+    height: 1px;
+    background: #000000;
+    top: 1px;
+}
+
+.qubit-information {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 660px;
+    margin-left: 236px;
+    justify-content: space-between;
+}
+
+.qubit-info {
+    display: flex;
+    width: 225px;
+    flex-direction: column;
+}
+
+/* customers */
+
+/* Commerceal-section */
+
+.Commerceal-section {
+    margin-top: 94px;
+    width: 100%;
+    
+}
+
+.Commerceal-info {
+    display: flex;
+    justify-content: center;
+}
+
+.qubit-Commerceal__cards {
+    margin-top: 58px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-bottom: 90px;
+}
+
+.qubit-Commerceal__card {
+    width: 320px;
+    height: 194px;
+}
+
+.qubit-card__title {
+    font-size: 19px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-top: 48px;
+}
+
+.qubit-icon__photo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Commerceal-section */
+
+.qubit-power {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 1064px;
+}
+
+.qubit-power__information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.qubit-power__one {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.qubit-power__second {
+    font-size: 15px;
+}
+
+.qubit-power__image {
+    margin-top: 90px;
+    padding-left: 220px;
+}
+
+.qubit-power__buttons {
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+}
+
+.green-button {
+    width: 189px;
+    height: 40px;
+    background-color: #6F2CFF;
+    color: #FFFFFF;
+    border:  1px solid #6F2CFF;
+    border-radius: 30px;
+}
+
+.blue-button {
+    width: 187px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: #6F2CFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    margin-left: 22px;
+}
+
+/* width qubit */
+
+.width-qubit__info {
+    margin-top: 94px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.width-qubit__cards {
+    width: 1020px;
+    height: 528px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-left: 210PX;
+}
+
+.width-qubit__card {
+    width: 276px;
+    height: 173px;
+    display: flex;
+    flex-direction: column;
+}
+
+.width-qubit__image {
+    display: flex;
+    justify-content: center;
+}
+
+.width-qubit__title {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* width qubit */
+
+/* qubit brand */
+
+.qubit-brand {
+    margin-top: 220px;
+    height: 751px;
+    background-color: #F5F5F5;
+}
+
+.qubit-brand__title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 85px;
+}
+
+.qubit-brand__cards {
+    width: 1120px;
+    margin-left: 195px;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+.brand-card__vector {
+    display: flex;
+    align-items: center;
+}
+
+.qubit-brand__card {
+    width: 319px;
+    height: 418px;
+}
+
+.qubit-brand__image {
+    height: 205px;
+}
+
+.brand-card__info {
+    padding: 25px;
+    width: 320px;
+    /* height: 233px;  */
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 10px rgba(192, 192, 192, 0.5);
+
+}
+
+.brand-card__title {
+    /* padding: 25px; */
+    margin-bottom: 25px;
+}
+
+.qubit-brand__description {
+    /* width: 215px; */
+    color: #6F2CFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* qubit brand */
+
+/* qubit catalog */ 
+.qubit-catalog {
+    height: 1003px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qubit-catalogs__introduction {
+    margin-top: 94px;
+}
+
+.catalogs-info__one {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.catalogs-info__second {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.qubit-catalogs {
+    width: 980px;
+    height: 687px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.qubit-catalog__card {
+    color: #FFFFFF;
+    width: 460px;
+    height: 199px;
+    background-color: #17002E;
+    border-radius: 8px 10px 10px 8px;
+}
+
+.qubit-catalog__info {
+    padding: 15px;
+}
+
+.qubit-catalog__introduction {
+    /* margin-left: 33px; */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.catalog-card__title {
+    margin-left: 23px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.qubit-catalog__description {
+    max-width: 380px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.white-line {
+    display: flex;
+    width: 358px;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+/* qubit catalog */ 
+
+/* qubit-ecosystem */
+.qubit-ecosystem {
+    height: 627px;
+    background-color: #F5F5F5;
+}
+
+.about-ecosystem {
+    margin-top: 40px;
+    width: 1260px;
+    height: 567px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.ecosystem-info {
+    width: 610px;
+    height: 305px;
+}
+
+.ecosystem-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #17002E;
+}
+
+.ecosystem-information {
+    margin-top: 47px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.ecosystem-description {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.See-integrations {
+    margin-top: 74px;
+    width: 203px;
+    height: 40px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: 1px solid #6f2cff;
+    background-color:  #6F2CFF;
+    ;
+}
+
+.ecosystem-image {
+    width: 657px;
+    height: 567px;
+}
+/* qubit-ecosystem */
+
+/*  */
+.book-today {
+    background: url(../photos/backrount\ photo\ \(9\).png);
+    height: 329px;
+}
+
+.about-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.book-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 93px;
+}
+
+.books-today {
+    display: flex;
+    margin-top: 39px;
+}
+
+.books-today > input {
+    width: 267px;
+    height: 45px;
+    font-size: 15px;
+    padding-left: 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 27.5px 0px 0px 27.5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(111, 44, 255);
+    
+}
+
+.next-button {
+    width: 187px;
+    border: 1px solid #6F2CFF;
+    background: #6F2DFF;
+    border-radius: 0px 27.5px 27.5px 0px;
+    color: #FFFFFF;
+}
+/*  */
+
+/*  */
+.qubit-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect {
+    text-align: center;
+    margin-top: 23px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.qubit-icons {
+  letter-spacing: 30px;
+  margin-bottom: 44px;
+}
+
+/*  */
+
+/*  */
+.footer {
+    width: 1440px;
+    height: 547px;
+    display: flex;
+    flex-direction: column;
+    background-color: #20003C;
+    color: #FFFFFF;
+}
+
+.about-footer {
+    margin-left: 70px;
+}
+.footer-information {
+    width: 1300px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-one {
+    width: 200px;
+}
+
+.footer-item__title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.custom-machine {
+    margin-top: 70px;
+}
+
+.footer-one > p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-qubit {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.all-rights {
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.footer-icon {
+    margin-left: 110px;
+}
